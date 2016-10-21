@@ -1,1 +1,196 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <style>
+
+   body{
+  	background-image: url("http://www.planwallpaper.com/static/images/6790904-free-background-wallpaper.jpg") 
+  }
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: ;
+      padding: 25px;
+    }
+
+    .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      min-height: 200px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+<div class="row">
+  <div class="col-sm-8">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="http://data.whicdn.com/images/128437741/original.jpg" alt="Image">
+          <div class="carousel-caption">
+            <h3>1937</h3>
+            <p>Snow White and the Seven Dwarves</p>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- Start Here 
+  <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="http://assets1.ignimgs.com/2015/06/02/rapunzel-tangled-1280x1024jpg-e3aaf8_1280w.jpg">
+            <h3>2010</h3>
+            <p>Tangled</p>
+          </div>
+        </div>
+    </div>
+  </div> -->
+  
+<hr>
+</div>
+  <div class="col-sm-4">
+    <div class="well">
+      <p>A common theme in early Disney movies is the adaptation of old tales. "The Little Mermaid" is based off of Hans Christian Andersen's famed tale. In a modern revival of this well-known inspiration, "Frozen" is based off of Hans Christian Andersen's "The Snow Queen"</p>
+    </div>
+    <div class="well">
+       <p>Upcoming Movie Releases:
+      		Moana (2016)
+      		Cars 3 (2017)
+      		Toy Story 4 (2018)</p>
+    </div>
+    <div class="well">
+       <p>Tangled (2010) cost 260 million dollars to make! That makes it the second highest costing movie of all time! </p>
+    </div>
+  </div>
+</div>
+<hr>
+</div>
+
+<div class="container text-center">
+  <h3>Disney Animation: 1937-2016</h3>
+  <br>
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="http://images5.fanpop.com/image/photos/25800000/Robin-Hood-disney-males-25833638-1280-720.jpg" style="width:100%" alt="Image">
+      <p>1973</p>
+    </div>
+    <div class="col-sm-6">
+      <img src="https://s.aolcdn.com/hss/storage/midas/9678597592e43d6b6011add3cf19a394/201079125/disney-little-mermaid-facts.jpg" class="img-responsive" style="width:200%" alt="Image">
+      <p>1989</p>
+    </div>
+    
+     
+    </div>
+      <div class="row">
+    <div class="col-sm-6">
+      <img src="https://theoutlits.files.wordpress.com/2014/01/belle-disney.jpg" style="width:100%" alt="Image">
+      <p>1991</p>
+    </div>
+   
+    <div class="col-sm-6">
+      <img src="https://lumiere-a.akamaihd.net/v1/images/which-pocahontas-character_pocahontas-e1436568743163_b5525ebe.jpeg?width=642" style="width:100%" alt="Image">
+      <p>1995</p>
+    </div>
+ <div>
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="http://images.m-magazine.com/uploads/posts/image/46533/toy-story-hotel.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>1995</p>
+    </div>
+    <div class="col-sm-6">
+      <img src="http://popcrush.com/files/2015/03/mulan1-630x419.jpg" style="width:100%" alt="Image">
+      <p>1998</p>
+     </div>
+     </row>
+     </div>
+     <div class="row">
+    <div class="col-sm-6">
+      <img src="http://static.comicvine.com/uploads/original/11116/111164870/3847548-3282600894-Incre.jpg" style="width:100%" alt="Image">
+      <p>2004</p>
+    </div>
+    <div>
+    <div class="row">
+    <div class="col-sm-6">
+      <img src="https://images-na.ssl-images-amazon.com/images/G/01/dvd/disney/tinkerbell/TinkerBell_s.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>2008</p>
+    </div>
+    <!-- </row> -->
+    
+     <div class="row">
+    <div class="col-sm-6">
+      <img src="http://thefilmbox.org/wp-content/uploads/2015/08/frozen.jpg" style="width:100%" alt="Image">
+      <p>2012</p>
+    </div>
+    <div class="col-sm-6">
+      <img src="http://www.thewrap.com/wp-content/uploads/2014/11/Big-Hero-6-Cover.jpg" class="img-responsive" style="width:200%" alt="Image">
+      <p>2014</p>
+    </div> 
+    <!-- <div class="row">
+    <div class="col-sm-6">
+      <img src="http://www.thewrap.com/wp-content/uploads/2014/11/Big-Hero-6-Cover.jpg" width:100%" alt="Image">
+      <p>2014</p>
+    </div>
+    </row>
+    </div> -->
+    
+    <div class="row">
+    <div class="col-sm-6">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jqmcxLUSRTQ" frameborder="0" allowfullscreen></iframe>
+      <p></p>
+    
+</div><br>
+
+<footer class="container-fluid text-center">
+  <p>Get ready for Disney's new animated movie featuring Auli'i Cravalho and Dwayne Johnson!</p>
+</footer>
+
+</body>
+</html>
+
+
+
